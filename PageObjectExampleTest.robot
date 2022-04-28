@@ -2,7 +2,7 @@
 Test Setup        GoogleSearchPage.Open    ${URL}
 Test Teardown     GoogleSearchPage.Close
 Resource          GoogleSearchPage.html
-Tags              Regression
+Default Tags              Regression
 
 *** Variable ***    Value
 ${BROWSER_OPENED}    ${false}
